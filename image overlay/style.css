@@ -1,0 +1,13 @@
+div {
+	width: 200px;
+	height: 300px;
+	
+	background-image: url('http://jogjafile.com/html/demo/prambananhtml/images/overlays/05.png'),
+	                  url('http://www.hrsvegas.com/wp-content/uploads/2013/10/las-vegas-sign.jpg');	
+}
+
+div:hover{
+	background-image: url('http://www.hrsvegas.com/wp-content/uploads/2013/10/las-vegas-sign.jpg');
+}
+
+

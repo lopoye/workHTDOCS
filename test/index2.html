@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="p1">Hello World!</p>
+<p id="demov">Hello World!</p>
+<img id='js1' src='http://img2.fotoalbum.virgilio.it/v/www1-3/176/176513/304872/IMG_0880-vi.jpg' onclick='changeImage()'>
+
+
+<button type="button"
+onclick="document.getElementById('js1').src = 'http://img2.fotoalbum.virgilio.it/v/www1-3/176/176513/304872/IMG_0861-vi.jpg'">
+IMG change!!!</button>
+
+<script>
+var i1='http://img2.fotoalbum.virgilio.it/v/www1-3/176/176513/304872/IMG_0880-vi.jpg';
+var i2='http://img2.fotoalbum.virgilio.it/v/www1-3/176/176513/304872/IMG_0861-vi.jpg';
+function changeImage() {
+    var image = document.getElementById('js1');
+    if (image.src==i1) {
+        image.src = i2;
+    } else {
+        image.src = i1;
+    }
+}
+</script>
+
+</body>
+</html>
